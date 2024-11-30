@@ -1,5 +1,15 @@
 import { useEffect, useState } from "react";
 import CardLibro from "../libros/CardLibro";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// import required modules
+import { Pagination, Navigation } from "swiper/modules";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 const categorias = [
   "Elige un genero",
@@ -45,9 +55,35 @@ export const MasVendidos = () => {
           ))}
         </select>
       </div>
-      {librosFiltrados.map((libro, index) => (
-        <CardLibro key={index} libro={libro} />
-      ))}
+
+      <Swiper
+        slidesPerView={1}
+        spaceBetween={30}
+        navigation={true}
+        breakpoints={{
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 2,
+            spaceBetween: 50,
+          },
+        }}
+        modules={[Pagination, Navigation]}
+        className="mySwiper"
+      >
+        {librosFiltrados.length > 0 &&
+          librosFiltrados.map((libro, index) => (
+            <SwiperSlide key={index}>
+              <CardLibro libro={libro} />
+            </SwiperSlide>
+          ))}
+      </Swiper>
     </div>
   );
 };
