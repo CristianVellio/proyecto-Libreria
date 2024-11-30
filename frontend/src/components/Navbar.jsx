@@ -3,6 +3,7 @@ import { FaBars, FaSearch, FaRegUser, FaRegHeart } from "react-icons/fa";
 import { FiShoppingCart } from "react-icons/fi";
 import avatarImg from "../assets/avatar.png";
 import { useState } from "react";
+import { useSelector } from "react-redux";
 
 const navegacion = [
   { name: "Tablero", href: "/tablero" },
@@ -13,7 +14,10 @@ const navegacion = [
 
 export const Navbar = () => {
   const [estaDropDownAbierto, setEstaDropDownAbierto] = useState(false);
-  console.log(estaDropDownAbierto);
+  const productosCarrito = useSelector(
+    (state) => state.carrito.productosCarrito
+  );
+
   const usuarioActual = false;
   return (
     <header className="max-w-screen-2xl mx-4 px-4 py-6">
@@ -88,7 +92,13 @@ export const Navbar = () => {
             className="bg-primary p-1 sm:px-6 px-2 flex items-center rounded-md"
           >
             <FiShoppingCart className="" />
-            <span className="text-sm font-semibold sm:ml-1 ">0</span>
+            {productosCarrito.length > 0 ? (
+              <span className="text-sm font-semibold sm:ml-1 ">
+                {productosCarrito.length}
+              </span>
+            ) : (
+              <span className="text-sm font-semibold sm:ml-1 ">0</span>
+            )}
           </Link>
         </div>
       </nav>

@@ -2,8 +2,14 @@ import { FiShoppingCart } from "react-icons/fi";
 import { getImgUrl } from "../../utils/getImgUrl";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
+import { useDispatch } from "react-redux";
+import { anadirACarrito } from "../../redux/features/cart/cartSlice";
 
 const CardLibro = ({ libro }) => {
+  const dispatch = useDispatch();
+  const handleAnadirACarrito = (producto) => {
+    dispatch(anadirACarrito(producto));
+  };
   return (
     <div className="rounded-lg transition-shadow duration-300">
       <div className="flex flex-col sm:flex-row sm:items-center sm:h-72  sm:justify-center gap-4">
@@ -34,7 +40,10 @@ const CardLibro = ({ libro }) => {
               ${libro?.precioViejo}
             </span>
           </p>
-          <button className="btn-primary px-6 space-x-1 flex items-center gap-1">
+          <button
+            onClick={() => handleAnadirACarrito(libro)}
+            className="btn-primary px-6 space-x-1 flex items-center gap-1"
+          >
             <FiShoppingCart className="" />
             <span>Añadir</span>
           </button>
