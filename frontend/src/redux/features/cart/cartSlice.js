@@ -31,8 +31,17 @@ const cartSlice = createSlice({
           timer: 2000,
         });
     },
+    quitarDelCarrito(state, action) {
+      state.productosCarrito = state.productosCarrito.filter(
+        (item) => item._id !== action.payload._id
+      );
+    },
+    limpiarCarrito(state) {
+      state.productosCarrito = [];
+    },
   },
 });
 
-export const { anadirACarrito } = cartSlice.actions;
+export const { anadirACarrito, quitarDelCarrito, limpiarCarrito } =
+  cartSlice.actions;
 export default cartSlice.reducer;
