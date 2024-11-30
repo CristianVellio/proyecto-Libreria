@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 
 const CardLibro = ({ libro }) => {
   return (
-    <div className=" rounded-lg transition-shadow duration-300">
+    <div className="rounded-lg transition-shadow duration-300">
       <div className="flex flex-col sm:flex-row sm:items-center sm:h-72  sm:justify-center gap-4">
         <div className="sm:h-72 sm:flex-shrink-0 border rounded-md">
           <Link to={`/libros/${libro._id}`}>
@@ -34,9 +34,9 @@ const CardLibro = ({ libro }) => {
               ${libro?.precioViejo}
             </span>
           </p>
-          <button className="btn-primary px-6 space-x-1 flex items-center gap-1 ">
+          <button className="btn-primary px-6 space-x-1 flex items-center gap-1">
             <FiShoppingCart className="" />
-            <span>Añadir al Carrito</span>
+            <span>Añadir</span>
           </button>
         </div>
       </div>
