@@ -73,6 +73,10 @@ export const MasVendidos = () => {
             slidesPerView: 2,
             spaceBetween: 50,
           },
+          1180: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
         }}
         modules={[Pagination, Navigation]}
         className="mySwiper"
