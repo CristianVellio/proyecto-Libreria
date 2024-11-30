@@ -1,6 +1,7 @@
 import { FiShoppingCart } from "react-icons/fi";
 import { getImgUrl } from "../../utils/getImgUrl";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 const CardLibro = ({ libro }) => {
   return (
@@ -10,7 +11,7 @@ const CardLibro = ({ libro }) => {
           <Link to={`/libros/${libro._id}`}>
             <img
               src={`${getImgUrl(libro.coverImg)}`}
-              alt=""
+              alt="Tapa del libro"
               className="w-full bg-cover p-2 rounded-md cursor-pointer hover:scale-105 transition-all duration-200"
             />
           </Link>
@@ -41,6 +42,16 @@ const CardLibro = ({ libro }) => {
       </div>
     </div>
   );
+};
+CardLibro.propTypes = {
+  libro: PropTypes.shape({
+    _id: PropTypes.string.isRequired,
+    coverImg: PropTypes.string.isRequired,
+    titulo: PropTypes.string.isRequired,
+    descripcion: PropTypes.string.isRequired,
+    precioNuevo: PropTypes.number.isRequired,
+    precioViejo: PropTypes.number.isRequired,
+  }).isRequired,
 };
 
 export default CardLibro;
