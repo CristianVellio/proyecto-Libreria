@@ -14,7 +14,7 @@ const navegacion = [
 export const Navbar = () => {
   const [estaDropDownAbierto, setEstaDropDownAbierto] = useState(false);
   console.log(estaDropDownAbierto);
-  const usuarioActual = true;
+  const usuarioActual = false;
   return (
     <header className="max-w-screen-2xl mx-4 px-4 py-6">
       <nav className="flex justify-between items-center">
