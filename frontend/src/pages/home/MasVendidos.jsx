@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import CardLibro from "../libros/CardLibro";
 
 const categorias = [
   "Elige un genero",
@@ -26,8 +27,6 @@ export const MasVendidos = () => {
           (libro) => libro.categoria === categoriaSeleccionada.toLowerCase()
         );
 
-  console.log(librosFiltrados);
-
   return (
     <div className="py-10">
       <h2 className="text-3xl font-semibold mb-6">Mas Vendidos</h2>
@@ -47,7 +46,7 @@ export const MasVendidos = () => {
         </select>
       </div>
       {librosFiltrados.map((libro, index) => (
-        <div key={index}>{libro.titulo}</div>
+        <CardLibro key={index} libro={libro} />
       ))}
     </div>
   );

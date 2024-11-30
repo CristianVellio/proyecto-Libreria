@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 import { FaBars, FaSearch, FaRegUser, FaRegHeart } from "react-icons/fa";
-import { HiOutlineShoppingCart } from "react-icons/hi";
+import { FiShoppingCart } from "react-icons/fi";
 import avatarImg from "../assets/avatar.png";
 import { useState } from "react";
 
@@ -87,7 +87,7 @@ export const Navbar = () => {
             to="/carrito"
             className="bg-primary p-1 sm:px-6 px-2 flex items-center rounded-md"
           >
-            <HiOutlineShoppingCart className="" />
+            <FiShoppingCart className="" />
             <span className="text-sm font-semibold sm:ml-1 ">0</span>
           </Link>
         </div>
