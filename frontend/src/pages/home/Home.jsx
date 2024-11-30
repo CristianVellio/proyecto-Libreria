@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer";
 import { Banner } from "./Banner";
 import { MasVendidos } from "./MasVendidos";
 import Noticias from "./Noticias";
@@ -10,6 +11,7 @@ export const Home = () => {
       <MasVendidos />
       <Recomendados />
       <Noticias />
+      <Footer />
     </>
   );
 };
