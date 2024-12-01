@@ -6,8 +6,8 @@
     "categoria": "negocios",
     "trending": true,
     "coverImg": "book-1.png",
-    "precioViejo": 29.99,
-    "precioNuevo": 19.99
+    "precioViejo": 29999,
+    "precioNuevo": 19959
   },
   {
     "_id": 2,
@@ -16,8 +16,8 @@
     "categoria": "libros",
     "trending": true,
     "coverImg": "book-2.png",
-    "precioViejo": 24.99,
-    "precioNuevo": 14.99
+    "precioViejo": 24999,
+    "precioNuevo": 14999
   },
   {
     "_id": 3,
@@ -26,8 +26,8 @@
     "categoria": "marketing",
     "trending": true,
     "coverImg": "book-3.png",
-    "precioViejo": 39.99,
-    "precioNuevo": 29.99
+    "precioViejo": 39999,
+    "precioNuevo": 29999
   },
   {
     "_id": 4,
@@ -36,8 +36,8 @@
     "categoria": "negocios",
     "trending": false,
     "coverImg": "book-4.png",
-    "precioViejo": 49.99,
-    "precioNuevo": 39.99
+    "precioViejo": 49999,
+    "precioNuevo": 39999
   },
   {
     "_id": 5,
@@ -46,8 +46,8 @@
     "categoria": "libros",
     "trending": true,
     "coverImg": "book-5.png",
-    "precioViejo": 19.99,
-    "precioNuevo": 9.99
+    "precioViejo": 19999,
+    "precioNuevo": 9999
   },
   {
     "_id": 6,
@@ -56,8 +56,8 @@
     "categoria": "marketing",
     "trending": false,
     "coverImg": "book-6.png",
-    "precioViejo": 44.99,
-    "precioNuevo": 34.99
+    "precioViejo": 44999,
+    "precioNuevo": 34999
   },
   {
     "_id": 7,
@@ -66,8 +66,8 @@
     "categoria": "terror",
     "trending": true,
     "coverImg": "book-7.png",
-    "precioViejo": 59.99,
-    "precioNuevo": 49.99
+    "precioViejo": 59999,
+    "precioNuevo": 49999
   },
   {
     "_id": 8,
@@ -76,8 +76,8 @@
     "categoria": "ficcion",
     "trending": true,
     "coverImg": "book-8.png",
-    "precioViejo": 21.99,
-    "precioNuevo": 16.99
+    "precioViejo": 21999,
+    "precioNuevo": 16999
   },
   {
     "_id": 9,
@@ -86,8 +86,8 @@
     "categoria": "aventura",
     "trending": false,
     "coverImg": "book-9.png",
-    "precioViejo": 27.99,
-    "precioNuevo": 18.99
+    "precioViejo": 27999,
+    "precioNuevo": 18999
   },
   {
     "_id": 10,
@@ -96,18 +96,18 @@
     "categoria": "ficcion",
     "trending": true,
     "coverImg": "book-10.png",
-    "precioViejo": 14.99,
-    "precioNuevo": 10.99
+    "precioViejo": 14999,
+    "precioNuevo": 10999
   },
   {
     "_id": 11,
-    "titulo": "Como matar a un Ruiseñor",
+    "titulo": "Matar a un Ruiseñor",
     "descripcion": "Una historia atemporal de tolerancia, resistencia y la lucha por la justicia ambientada en el sur de los Estados Unidos durante la Gran Depresión.",
-    "categoria": "fiction",
+    "categoria": "ficcion",
     "trending": true,
     "coverImg": "book-11.png",
-    "precioViejo": 32.99,
-    "precioNuevo": 25.99
+    "precioViejo": 32999,
+    "precioNuevo": 24999
   },
   {
     "_id": 12,
@@ -116,8 +116,8 @@
     "categoria": "negocios",
     "trending": true,
     "coverImg": "book-12.png",
-    "precioViejo": 19.99,
-    "precioNuevo": 9.99
+    "precioViejo": 19999,
+    "precioNuevo": 9999
   },
   {
     "_id": 13,
@@ -126,8 +126,8 @@
     "categoria": "terror",
     "trending": true,
     "coverImg": "book-13.png",
-    "precioViejo": 26.99,
-    "precioNuevo": 21.99
+    "precioViejo": 26999,
+    "precioNuevo": 21999
   },
   {
     "_id": 14,
@@ -136,8 +136,8 @@
     "categoria": "ficcion",
     "trending": false,
     "coverImg": "book-14.png",
-    "precioViejo": 34.99,
-    "precioNuevo": 24.99
+    "precioViejo": 34999,
+    "precioNuevo": 24999
   },
   {
     "_id": 15,
@@ -146,8 +146,8 @@
     "categoria": "ficcion",
     "trending": false,
     "coverImg": "book-15.png",
-    "precioViejo": 22.99,
-    "precioNuevo": 12.99
+    "precioViejo": 22999,
+    "precioNuevo": 12999
   },
   {
     "_id": 16,
@@ -156,8 +156,8 @@
     "categoria": "ficcion",
     "trending": false,
     "coverImg": "book-16.png",
-    "precioViejo": 24.99,
-    "precioNuevo": 19.99
+    "precioViejo": 24999,
+    "precioNuevo": 19999
   },
   {
     "_id": 17,
@@ -166,8 +166,8 @@
     "categoria": "aventura",
     "trending": true,
     "coverImg": "book-17.png",
-    "precioViejo": 49.99,
-    "precioNuevo": 39.99
+    "precioViejo": 49999,
+    "precioNuevo": 39999
   },
   {
     "_id": 18,
@@ -176,8 +176,8 @@
     "categoria": "ficcion",
     "trending": true,
     "coverImg": "book-18.png",
-    "precioViejo": 18.99,
-    "precioNuevo": 12.99
+    "precioViejo": 18999,
+    "precioNuevo": 12999
   },
   {
     "_id": 19,
@@ -186,8 +186,8 @@
     "categoria": "aventura",
     "trending": true,
     "coverImg": "book-19.png",
-    "precioViejo": 35.99,
-    "precioNuevo": 27.99
+    "precioViejo": 35999,
+    "precioNuevo": 27999
   },
   {
     "_id": 20,
@@ -196,7 +196,7 @@
     "categoria": "negocios",
     "trending": false,
     "coverImg": "book-20.png",
-    "precioViejo": 24.99,
-    "precioNuevo": 14.99
+    "precioViejo": 24999,
+    "precioNuevo": 14999
   }
 ]

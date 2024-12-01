@@ -3,6 +3,7 @@ import App from "../App.jsx";
 import { Home } from "../pages/home/Home.jsx";
 import Login from "../components/Login.jsx";
 import Registrarse from "../components/Registrarse.jsx";
+import CarritoPagina from "../pages/libros/CarritoPagina.jsx";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/registrarse",
         element: <Registrarse />,
+      },
+      {
+        path: "/carrito",
+        element: <CarritoPagina />,
       },
     ],
   },
