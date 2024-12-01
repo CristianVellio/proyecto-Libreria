@@ -4,6 +4,7 @@ import { Home } from "../pages/home/Home.jsx";
 import Login from "../components/Login.jsx";
 import Registrarse from "../components/Registrarse.jsx";
 import CarritoPagina from "../pages/libros/CarritoPagina.jsx";
+import PagarPagina from "../pages/libros/PagarPagina.jsx";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: "/carrito",
         element: <CarritoPagina />,
+      },
+      {
+        path: "/pagar",
+        element: <PagarPagina />,
       },
     ],
   },
