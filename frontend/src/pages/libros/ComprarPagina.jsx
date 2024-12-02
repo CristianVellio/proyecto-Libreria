@@ -24,17 +24,15 @@ const ComprarPagina = () => {
       nombre: data.nombre,
       email: usuarioActual?.email,
       direccion: {
-        calle: data.calle,
         ciudad: data.ciudad,
         pais: data.pais,
         provincia: data.provincia,
         codigopostal: data.codigopostal,
-        preciototal: precioTotal,
       },
       telefono: data.telefono,
       idsproductos: productosCarrito.map((item) => item?._id),
+      preciototal: precioTotal,
     };
-    console.log(nuevoPedido);
   };
   return (
     <section>
