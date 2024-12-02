@@ -4,12 +4,13 @@ import { FiShoppingCart } from "react-icons/fi";
 import avatarImg from "../assets/avatar.png";
 import { useState } from "react";
 import { useSelector } from "react-redux";
+import { useAuth } from "../context/AuthContext";
 
 const navegacion = [
   { name: "Tablero", href: "/tablero" },
   { name: "Pedidos", href: "/pedidos" },
   { name: "Pagina Carrito", href: "/carrito" },
-  { name: "Terminar", href: "/terminar" },
+  { name: "Pagar", href: "/pagar" },
 ];
 
 export const Navbar = () => {
@@ -18,7 +19,11 @@ export const Navbar = () => {
     (state) => state.carrito.productosCarrito
   );
 
-  const usuarioActual = false;
+  const { usuarioActual, cerrarSesion } = useAuth();
+  const handleCerrarSesion = () => {
+    cerrarSesion();
+  };
+
   return (
     <header className="max-w-screen-2xl mx-4 px-4 py-6">
       <nav className="flex justify-between items-center">
@@ -72,6 +77,14 @@ export const Navbar = () => {
                           </Link>
                         </li>
                       ))}
+                      <li>
+                        <button
+                          onClick={handleCerrarSesion}
+                          className="block w-full text-left px-4 py-2 text-sm hover:bg-gray-100"
+                        >
+                          Cerrar Sesion
+                        </button>
+                      </li>
                     </ul>
                   </div>
                 )}
