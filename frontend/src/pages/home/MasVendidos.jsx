@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import CardLibro from "../libros/CardLibro";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -10,25 +10,22 @@ import { Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { useFetchAllLibrosQuery } from "../../redux/features/libros/librosAPI";
 
 const categorias = [
   "Elige un genero",
   "Negocios",
+  "Libros",
+  "Marketing",
   "Ficcion",
   "Terror",
   "Aventura",
 ];
 
 export const MasVendidos = () => {
-  const [libros, setLibros] = useState([]);
   const [categoriaSeleccionada, setCategoriaSeleccionada] =
     useState("Elige un genero");
-
-  useEffect(() => {
-    fetch("libros.json")
-      .then((res) => res.json())
-      .then((data) => setLibros(data));
-  }, []);
+  const { data: libros = [] } = useFetchAllLibrosQuery();
 
   const librosFiltrados =
     categoriaSeleccionada === "Elige un genero"
