@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { FaBars, FaSearch, FaRegUser, FaRegHeart } from "react-icons/fa";
+import { FaSearch, FaRegUser, FaRegHeart, FaBookReader } from "react-icons/fa";
 import { FiShoppingCart } from "react-icons/fi";
 import avatarImg from "../assets/avatar.png";
 import { useState } from "react";
@@ -25,7 +25,7 @@ export const Navbar = () => {
         {/* lado izquierdo */}
         <div className="flex items-center md:gap-16 gap-4">
           <Link to="/">
-            <FaBars className="size-6" />
+            <FaBookReader className="size-6" />
           </Link>
 
           {/* busqueda */}
