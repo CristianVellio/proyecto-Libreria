@@ -1,10 +1,13 @@
 import { useState } from "react";
-import { Link } from "react-router";
+import { Link, useNavigate } from "react-router-dom";
 import { FaGoogle } from "react-icons/fa";
 import { useForm } from "react-hook-form";
+import { useAuth } from "../context/AuthContext";
 
 const Registrarse = () => {
   const [mensaje, setMensaje] = useState("");
+  const { registrarUsuario, signInWithGoogle } = useAuth();
+  const navigate = useNavigate();
   const {
     register,
     handleSubmit,
@@ -12,9 +15,29 @@ const Registrarse = () => {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => console.log(data);
+  //registrar un usuario
 
-  const handleGoogleLogin = () => {};
+  const onSubmit = async (data) => {
+    console.log(data);
+    try {
+      await registrarUsuario(data.email, data.password);
+      alert("Usuario registrado correctamente");
+    } catch (error) {
+      setMensaje("Por favor ingrese un email y password validos");
+      console(error);
+    }
+  };
+
+  const handleGoogleLogin = async () => {
+    try {
+      await signInWithGoogle();
+      alert("Usuario logueado con exito!");
+      navigate("/");
+    } catch (error) {
+      alert("Registro con Google Fallido");
+      console(error);
+    }
+  };
   return (
     <div className="h-[calc(100vh-120px)] flex justify-center items-center">
       <div className="w-full max-w-sm mx-auto bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
@@ -47,7 +70,7 @@ const Registrarse = () => {
             <input
               {...register("password", { required: true })}
               type="password"
-              name="contrasena"
+              name="password"
               id="password"
               placeholder="Ingrese su Contraseña"
               className="shadow appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline "

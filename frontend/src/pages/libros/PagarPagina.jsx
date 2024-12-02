@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { useSelector } from "react-redux";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const PagarPagina = () => {
   const productosCarrito = useSelector(
