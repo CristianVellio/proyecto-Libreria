@@ -10,7 +10,7 @@ const navegacion = [
   { name: "Tablero", href: "/tablero" },
   { name: "Pedidos", href: "/pedidos" },
   { name: "Pagina Carrito", href: "/carrito" },
-  { name: "Pagar", href: "/pagar" },
+  { name: "Comprar", href: "/comprar" },
 ];
 
 export const Navbar = () => {

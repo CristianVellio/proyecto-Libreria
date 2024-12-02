@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
-const PagarPagina = () => {
+const ComprarPagina = () => {
   const productosCarrito = useSelector(
     (state) => state.carrito.productosCarrito
   );
@@ -259,4 +259,4 @@ const PagarPagina = () => {
   );
 };
 
-export default PagarPagina;
+export default ComprarPagina;

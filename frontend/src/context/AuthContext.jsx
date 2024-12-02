@@ -56,8 +56,8 @@ export const AuthProvider = ({ children }) => {
           photo: photoURL,
         };
       }
-      return () => unsubscribe();
     });
+    return () => unsubscribe();
   }, []);
 
   const value = {
