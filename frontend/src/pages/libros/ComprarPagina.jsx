@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import { useAuth } from "../../context/AuthContext";
 
 const ComprarPagina = () => {
   const productosCarrito = useSelector(
@@ -10,13 +11,13 @@ const ComprarPagina = () => {
   const precioTotal = productosCarrito
     .reduce((acc, item) => acc + item.precioNuevo, 0)
     .toFixed(2);
+  const { usuarioActual } = useAuth();
   const {
     register,
     handleSubmit,
     watch,
     formState: { errors },
   } = useForm();
-  const usuarioActual = true;
   const [isChecked, setIsChecked] = useState(false);
   const onSubmit = (data) => {
     const nuevoPedido = {
