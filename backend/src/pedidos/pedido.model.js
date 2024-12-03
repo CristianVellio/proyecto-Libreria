@@ -1,20 +1,21 @@
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 
 const pedidoSchema = new mongoose.Schema(
   {
-    name: { type: String, required: true },
+    nombre: { type: String, required: true },
     email: { type: String, required: true },
     direccion: {
-      ciudad: { type: String, required: true },
+      ciudad: String,
       pais: String,
       provincia: String,
       codigopostal: String,
     },
-    telefono: { type: Number, required: true },
+    telefono: { type: String, required: true },
     idsproductos: [
       {
         type: mongoose.Schema.Types.ObjectId,
         ref: "Libro",
+        required: true,
       },
     ],
     preciototal: { type: Number, required: true },
