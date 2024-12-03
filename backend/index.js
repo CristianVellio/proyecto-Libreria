@@ -18,8 +18,11 @@ app.use(
 // rutas
 const libroRoutes = require("./src/libros/libro.route");
 const pedidoRoutes = require("./src/pedidos/pedido.route");
+const userRoutes = require("./src/users/user.route");
+
 app.use("/api/libros", libroRoutes);
 app.use("/api/pedidos", pedidoRoutes);
+app.use("/api/auth", userRoutes);
 
 async function main() {
   await mongoose.connect(process.env.DB_URL);
