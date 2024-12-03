@@ -17,7 +17,7 @@ const ComprarPagina = () => {
   const {
     register,
     handleSubmit,
-    watch,
+    // watch,
     formState: { errors },
   } = useForm();
 

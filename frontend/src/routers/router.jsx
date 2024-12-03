@@ -7,6 +7,7 @@ import CarritoPagina from "../pages/libros/CarritoPagina.jsx";
 import ComprarPagina from "../pages/libros/ComprarPagina.jsx";
 import LibroUnico from "../pages/libros/LibroUnico.jsx";
 import RutasPrivadas from "./RutasPrivadas.jsx";
+import PedidoPagina from "../pages/libros/PedidoPagina.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,7 +20,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/pedidos",
-        element: <div>Pedidos</div>,
+        element: (
+          <RutasPrivadas>
+            <PedidoPagina />
+          </RutasPrivadas>
+        ),
       },
       {
         path: "/nosotros",

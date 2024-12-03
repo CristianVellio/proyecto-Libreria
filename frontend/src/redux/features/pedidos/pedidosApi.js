@@ -16,9 +16,15 @@ const pedidoApi = createApi({
         body: nuevoPedido,
       }),
     }),
+    getPedidoPorEmail: builder.query({
+      query: (email) => ({
+        url: `/email/${email}`,
+      }),
+      providesTags: ["Pedidos"],
+    }),
   }),
 });
 
-export const { useCreatePedidoMutation } = pedidoApi;
+export const { useCreatePedidoMutation, useGetPedidoPorEmailQuery } = pedidoApi;
 
 export default pedidoApi;
