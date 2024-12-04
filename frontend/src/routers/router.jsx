@@ -10,6 +10,7 @@ import RutasPrivadas from "./RutasPrivadas.jsx";
 import PedidoPagina from "../pages/libros/PedidoPagina.jsx";
 import RutaAdmin from "./RutaAdmin.jsx";
 import AdminLogin from "../components/AdminLogin.jsx";
+import TableroMaquetado from "../pages/tablero/TableroMaquetado.jsx";
 
 const router = createBrowserRouter([
   {
@@ -66,7 +67,7 @@ const router = createBrowserRouter([
     path: "/tablero",
     element: (
       <RutaAdmin>
-        <div>Tablero Admin</div>
+        <TableroMaquetado />
       </RutaAdmin>
     ),
     children: [

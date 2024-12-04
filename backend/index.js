@@ -19,10 +19,12 @@ app.use(
 const libroRoutes = require("./src/libros/libro.route");
 const pedidoRoutes = require("./src/pedidos/pedido.route");
 const userRoutes = require("./src/users/user.route");
+const adminRoutes = require("./src/stats/admin.stats");
 
 app.use("/api/libros", libroRoutes);
 app.use("/api/pedidos", pedidoRoutes);
 app.use("/api/auth", userRoutes);
+app.use("/api/admin", adminRoutes);
 
 async function main() {
   await mongoose.connect(process.env.DB_URL);
