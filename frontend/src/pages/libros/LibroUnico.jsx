@@ -1,7 +1,7 @@
 import { FiShoppingCart } from "react-icons/fi";
 import { getImgUrl } from "../../utils/getImgUrl";
 import { useParams } from "react-router";
-import { useFetchLibroByIdQuery } from "../../redux/features/libros/librosAPI";
+import { useFetchLibroByIdQuery } from "../../redux/features/libros/librosApi";
 import { useDispatch } from "react-redux";
 import { anadirACarrito } from "../../redux/features/cart/cartSlice";
 

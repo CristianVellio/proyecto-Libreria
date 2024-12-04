@@ -2,7 +2,7 @@ import { Link, useNavigate } from "react-router";
 import {
   useDeleteLibroMutation,
   useFetchAllLibrosQuery,
-} from "../../../redux/features/libros/librosAPI";
+} from "../../../redux/features/libros/librosApi";
 
 const ManipularLibros = () => {
   const navigate = useNavigate();
