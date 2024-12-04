@@ -19,7 +19,3 @@ logs/
 # OS generated files
 .DS_Store
 Thumbs.db
-
-# Build directories
-dist/
-build/
