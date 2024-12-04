@@ -1,0 +1,202 @@
+[
+  {
+    "_id": 1,
+    "titulo": "Como hacer crecer tu tienda online",
+    "descripcion": "Aprende las mejores estrategias para hacer crecer tu tienda online en el competitivo mercado actual.",
+    "categoria": "negocios",
+    "trending": true,
+    "coverImg": "book-1.png",
+    "precioViejo": 29999,
+    "precioNuevo": 19959
+  },
+  {
+    "_id": 2,
+    "titulo": "Top 10 Libros de Ficcion 2024",
+    "descripcion": "Una lista curada de los mejores libros de ficción que están de moda este año.",
+    "categoria": "libros",
+    "trending": true,
+    "coverImg": "book-2.png",
+    "precioViejo": 24999,
+    "precioNuevo": 14999
+  },
+  {
+    "_id": 3,
+    "titulo": "Maestro SEO en 2024",
+    "descripcion": "Consejos y trucos para impulsar tu SEO y posicionarte más alto en los motores de búsqueda.",
+    "categoria": "marketing",
+    "trending": true,
+    "coverImg": "book-3.png",
+    "precioViejo": 39999,
+    "precioNuevo": 29999
+  },
+  {
+    "_id": 4,
+    "titulo": "Mejor Plataforma eCommerce",
+    "descripcion": "Una guía completa para elegir las mejores plataformas de comercio electrónico para 2024.",
+    "categoria": "negocios",
+    "trending": false,
+    "coverImg": "book-4.png",
+    "precioViejo": 49999,
+    "precioNuevo": 39999
+  },
+  {
+    "_id": 5,
+    "titulo": "Lecturas No-Ficcion que debes Probar",
+    "descripcion": "Nuestras mejores selecciones de libros de no ficción para agregar a tu lista de lectura.",
+    "categoria": "libros",
+    "trending": true,
+    "coverImg": "book-5.png",
+    "precioViejo": 19999,
+    "precioNuevo": 9999
+  },
+  {
+    "_id": 6,
+    "titulo": "La Guia Definitiva al Marketing Digital",
+    "descripcion": "Una guía completa de estrategias de marketing digital para 2024.",
+    "categoria": "marketing",
+    "trending": false,
+    "coverImg": "book-6.png",
+    "precioViejo": 44999,
+    "precioNuevo": 34999
+  },
+  {
+    "_id": 7,
+    "titulo": "Los Primeros Dias",
+    "descripcion": "Katie está conduciendo al trabajo un hermoso día cuando un hombre muerto salta a su auto e intenta comérsela. Esa misma mañana, Jenni abre la puerta de un dormitorio para encontrar a su esposo devorando a su hijo pequeño.",
+    "categoria": "terror",
+    "trending": true,
+    "coverImg": "book-7.png",
+    "precioViejo": 59999,
+    "precioNuevo": 49999
+  },
+  {
+    "_id": 8,
+    "titulo": "Los Juegos del Hambre",
+    "descripcion": "¿Podrías sobrevivir solo en la naturaleza, con todos tratando de asegurarse de que no vivas para ver la mañana?",
+    "categoria": "ficcion",
+    "trending": true,
+    "coverImg": "book-8.png",
+    "precioViejo": 21999,
+    "precioNuevo": 16999
+  },
+  {
+    "_id": 9,
+    "titulo": "Harry Potter y la Orden del Fenix",
+    "descripcion": "Harry Potter está a punto de comenzar su quinto año en el Colegio Hogwarts de Magia y Hechicería. A diferencia de la mayoría de los escolares, Harry nunca disfruta de sus vacaciones de 1  verano.",
+    "categoria": "aventura",
+    "trending": false,
+    "coverImg": "book-9.png",
+    "precioViejo": 27999,
+    "precioNuevo": 18999
+  },
+  {
+    "_id": 10,
+    "titulo": "Orgullo y Prejuicio",
+    "descripcion": "Orgullo y prejuicio es una novela de amor o una comedia romántica, ambientada en los campos de Inglaterra en la que se refleja la vida de la sociedad rural del siglo XIX.",
+    "categoria": "ficcion",
+    "trending": true,
+    "coverImg": "book-10.png",
+    "precioViejo": 14999,
+    "precioNuevo": 10999
+  },
+  {
+    "_id": 11,
+    "titulo": "Matar a un Ruiseñor",
+    "descripcion": "Una historia atemporal de tolerancia, resistencia y la lucha por la justicia ambientada en el sur de los Estados Unidos durante la Gran Depresión.",
+    "categoria": "ficcion",
+    "trending": true,
+    "coverImg": "book-11.png",
+    "precioViejo": 32999,
+    "precioNuevo": 24999
+  },
+  {
+    "_id": 12,
+    "titulo": "La Culpa en Nuestras Estrellas",
+    "descripcion": "A pesar del milagro médico que encoge el tumor que le ha comprado unos años, Hazel nunca ha sido más que terminal, su capítulo final inscrito al diagnóstico.",
+    "categoria": "negocios",
+    "trending": true,
+    "coverImg": "book-12.png",
+    "precioViejo": 19999,
+    "precioNuevo": 9999
+  },
+  {
+    "_id": 13,
+    "titulo": "El Retrato de Dorian Gray",
+    "descripcion": "La única novela de Oscar Wilde es la historia onírica de un joven que vende su alma por la juventud eterna y la belleza.",
+    "categoria": "terror",
+    "trending": true,
+    "coverImg": "book-13.png",
+    "precioViejo": 26999,
+    "precioNuevo": 21999
+  },
+  {
+    "_id": 14,
+    "titulo": "El Arbol Generoso",
+    "descripcion": "'Había una vez un árbol... y ella amaba a un niño pequeño'. Así comienza una historia de percepción inolvidable, bellamente escrita e ilustrada por el talentoso y versátil Shel Silverstein.",
+    "categoria": "ficcion",
+    "trending": false,
+    "coverImg": "book-14.png",
+    "precioViejo": 34999,
+    "precioNuevo": 24999
+  },
+  {
+    "_id": 15,
+    "titulo": "Lo que El Viento Se Llevo",
+    "descripcion": "Muchos lectores se han enamorado de la historia de amor de Scarlett O'Hara y Rhett Butler. Ambientada en la Georgia del siglo XIX, esta novela cuenta la historia de la vida de Scarlett O'Hara, su amor por Ashley Wilkes y su matrimonio con Rhett Butler.",
+    "categoria": "ficcion",
+    "trending": false,
+    "coverImg": "book-15.png",
+    "precioViejo": 22999,
+    "precioNuevo": 12999
+  },
+  {
+    "_id": 16,
+    "titulo": "El ladron del rayo",
+    "descripcion": "Percy Jackson es un buen estudiante, pero tiene problemas en la escuela. Es un chico que ha sido expulsado de seis escuelas en seis años. Y las cosas solo empeoran cuando descubre que es hijo de Poseidón, el dios del mar, y que hay un mundo de mitología griega que él no conocía.",
+    "categoria": "ficcion",
+    "trending": false,
+    "coverImg": "book-16.png",
+    "precioViejo": 24999,
+    "precioNuevo": 19999
+  },
+  {
+    "_id": 17,
+    "titulo": "Alicia en el Pais de las Maravillas",
+    "descripcion": "Cuando Alicia ve a un conejo blanco sacar un reloj de su bolsillo del chaleco, decide seguirlo, y se pone en marcha una secuencia de eventos muy inusuales. Este mini libro contiene toda la historia al revés de las Aventuras de Alicia en el País de las Maravillas.",
+    "categoria": "aventura",
+    "trending": true,
+    "coverImg": "book-17.png",
+    "precioViejo": 49999,
+    "precioNuevo": 39999
+  },
+  {
+    "_id": 18,
+    "titulo": "Divergente",
+    "descripcion": "En un mundo dividido por facciones basadas en virtudes humanas, Tris descubre que ella es divergente y no encaja en ninguna de ellas. Cuando descubre una conspiración para destruir a los divergentes, Tris debe aprender a confiar en el misterioso Cuatro y descubrir la verdad sobre la sociedad en la que vive.",
+    "categoria": "ficcion",
+    "trending": true,
+    "coverImg": "book-18.png",
+    "precioViejo": 18999,
+    "precioNuevo": 12999
+  },
+  {
+    "_id": 19,
+    "titulo": "El Alquimista",
+    "descripcion": "Santiago, un joven pastor andaluz, tiene un sueño en el que un niño le dice que busque un tesoro en las pirámides de Egipto. A lo largo de su viaje, Santiago descubre la verdadera riqueza y el significado de la vida.",
+    "categoria": "aventura",
+    "trending": true,
+    "coverImg": "book-19.png",
+    "precioViejo": 35999,
+    "precioNuevo": 27999
+  },
+  {
+    "_id": 20,
+    "titulo": "Cuatro Horas a la Semana",
+    "descripcion": "Tim Ferriss enseña a los lectores cómo trabajar menos y ganar más en su libro más vendido. Descubre cómo puedes vivir la vida de tus sueños y hacer más en menos tiempo.",
+    "categoria": "negocios",
+    "trending": false,
+    "coverImg": "book-20.png",
+    "precioViejo": 24999,
+    "precioNuevo": 14999
+  }
+]
