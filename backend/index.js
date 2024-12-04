@@ -11,8 +11,9 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
-      "http://localhost:5173",
-      "https://proyecto-libreria-cv-mrw8am5h6-chris-projects-be539ae8.vercel.app/",
+      "*",
+      // "http://localhost:5173",
+      // "https://proyecto-libreria-cv-mrw8am5h6-chris-projects-be539ae8.vercel.app/",
     ],
     credentials: true,
   })
