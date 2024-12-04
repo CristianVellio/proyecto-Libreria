@@ -11,6 +11,10 @@ import PedidoPagina from "../pages/libros/PedidoPagina.jsx";
 import RutaAdmin from "./RutaAdmin.jsx";
 import AdminLogin from "../components/AdminLogin.jsx";
 import TableroMaquetado from "../pages/tablero/TableroMaquetado.jsx";
+import Tablero from "../pages/tablero/Tablero.jsx";
+import ManipularLibros from "../pages/tablero/manipularLibros/ManipularLibros.jsx";
+import PublicarLibro from "../pages/tablero/anadirLibro/PublicarLibro.jsx";
+import ActualizarLibro from "../pages/tablero/EditarLibro/ActualizarLibro.jsx";
 
 const router = createBrowserRouter([
   {
@@ -75,7 +79,7 @@ const router = createBrowserRouter([
         path: "",
         element: (
           <RutaAdmin>
-            <div>Tablero Inicio</div>
+            <Tablero />
           </RutaAdmin>
         ),
       },
@@ -83,7 +87,7 @@ const router = createBrowserRouter([
         path: "anadir-nuevo-libro",
         element: (
           <RutaAdmin>
-            <div>Añadir nuevo libro</div>
+            <PublicarLibro />
           </RutaAdmin>
         ),
       },
@@ -91,7 +95,7 @@ const router = createBrowserRouter([
         path: "editar-libro/:id",
         element: (
           <RutaAdmin>
-            <div>Editar libro</div>
+            <ActualizarLibro />
           </RutaAdmin>
         ),
       },
@@ -99,7 +103,7 @@ const router = createBrowserRouter([
         path: "manipular-libros",
         element: (
           <RutaAdmin>
-            <div>Manipular Libros</div>
+            <ManipularLibros />
           </RutaAdmin>
         ),
       },

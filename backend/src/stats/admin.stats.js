@@ -11,7 +11,7 @@ router.get("/", async (req, res) => {
       {
         $group: {
           _id: null,
-          totalVentas: { $sum: "$precioTotal" },
+          totalVentas: { $sum: "$preciototal" },
         },
       },
     ]);
@@ -32,7 +32,7 @@ router.get("/", async (req, res) => {
       {
         $group: {
           _id: { $dateToString: { format: "%Y-%m", date: "$createdAt" } },
-          totalVentas: { $sum: "$precioTotal" },
+          totalVentas: { $sum: "$preciototal" },
           totalPedidos: { $sum: 1 },
         },
       },
@@ -41,7 +41,7 @@ router.get("/", async (req, res) => {
 
     res.status(200).json({
       totalPedidos,
-      totalVentas: totalVentas[0]?.totalVentas || 0,
+      totalVentas: totalVentas[0]?.totalVentas,
       librosTrending,
       librosTotales,
       ventasMensuales,
