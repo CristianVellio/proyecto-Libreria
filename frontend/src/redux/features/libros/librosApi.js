@@ -13,8 +13,8 @@ const baseQuery = fetchBaseQuery({
   },
 });
 
-const libroApi = createApi({
-  reducerPath: "libroApi",
+const librosApi = createApi({
+  reducerPath: "librosApi",
   baseQuery,
   tagTypes: ["Libros"],
   endpoints: (builder) => ({
@@ -61,5 +61,5 @@ export const {
   useAddLibroMutation,
   useUpdateLibroMutation,
   useDeleteLibroMutation,
-} = libroApi;
-export default libroApi;
+} = librosApi;
+export default librosApi;
