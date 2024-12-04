@@ -8,6 +8,8 @@ import ComprarPagina from "../pages/libros/ComprarPagina.jsx";
 import LibroUnico from "../pages/libros/LibroUnico.jsx";
 import RutasPrivadas from "./RutasPrivadas.jsx";
 import PedidoPagina from "../pages/libros/PedidoPagina.jsx";
+import RutaAdmin from "./RutaAdmin.jsx";
+import AdminLogin from "../components/AdminLogin.jsx";
 
 const router = createBrowserRouter([
   {
@@ -53,6 +55,52 @@ const router = createBrowserRouter([
       {
         path: "/libros/:id",
         element: <LibroUnico />,
+      },
+    ],
+  },
+  {
+    path: "/admin",
+    element: <AdminLogin />,
+  },
+  {
+    path: "/tablero",
+    element: (
+      <RutaAdmin>
+        <div>Tablero Admin</div>
+      </RutaAdmin>
+    ),
+    children: [
+      {
+        path: "",
+        element: (
+          <RutaAdmin>
+            <div>Tablero Inicio</div>
+          </RutaAdmin>
+        ),
+      },
+      {
+        path: "anadir-nuevo-libro",
+        element: (
+          <RutaAdmin>
+            <div>Añadir nuevo libro</div>
+          </RutaAdmin>
+        ),
+      },
+      {
+        path: "editar-libro/:id",
+        element: (
+          <RutaAdmin>
+            <div>Editar libro</div>
+          </RutaAdmin>
+        ),
+      },
+      {
+        path: "manipular-libros",
+        element: (
+          <RutaAdmin>
+            <div>Manipular Libros</div>
+          </RutaAdmin>
+        ),
       },
     ],
   },
