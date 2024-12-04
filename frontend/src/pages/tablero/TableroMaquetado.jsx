@@ -1,12 +1,37 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import getBaseURL from "../../utils/baseURL";
+import Loading from "../../components/Loading";
 import { Link, Outlet, useNavigate } from "react-router";
 import { HiViewGridAdd } from "react-icons/hi";
 import { MdOutlineManageHistory } from "react-icons/md";
 
 const TableroMaquetado = () => {
+  const [loading, setLoading] = useState(true);
+  const [data, setData] = useState({});
+  const navigate = useNavigate();
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get(`${getBaseURL()}/api/admin`, {
+          headers: {
+            Authorization: `Bearer ${localStorage.getItem("token")}`,
+            "Content-Type": "application/json",
+          },
+        });
+
+        setData(response.data);
+        setLoading(false);
+      } catch (error) {
+        console.error("Error al obtener las estadisticas", error);
+      }
+    };
+    fetchData();
+  }, []);
+
   const handleLogout = () => {};
 
+  if (loading) return <Loading />;
   return (
     <section className="flex md:bg-gray-100 min-h-screen overflow-hidden">
       <aside className="hidden sm:flex sm:flex-col">
@@ -237,7 +262,7 @@ const TableroMaquetado = () => {
                 Manipular Libros
               </Link>
               <Link
-                to="/tablero/anadir-nuevo-libro"
+                to="/tablero/nadir-nuevo-libro"
                 className="inline-flex px-5 py-3 text-white bg-purple-600 hover:bg-purple-700 focus:bg-purple-700 rounded-md ml-6 mb-3"
               >
                 <svg
