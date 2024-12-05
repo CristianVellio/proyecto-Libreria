@@ -39,6 +39,10 @@ main()
   .then(() => console.log("MongoDB Conectado con Exito"))
   .catch((err) => console.log(err));
 
+app.get("/", (req, res) => {
+  res.send("Bienvenido a la API de Librería");
+});
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
