@@ -96,7 +96,7 @@ El frontend está desarrollado con **React**, utilizando herramientas modernas p
 7. **Diseño Moderno:**
    - Slider interactivo para presentar libros destacados con **swiper**.
 
----  
+--  
 
 Entre las funcionalidades destacadas del frontend, se incluye la autenticación de usuarios a través de **Firebase**.
 
@@ -106,6 +106,17 @@ Entre las funcionalidades destacadas del frontend, se incluye la autenticación 
 
 Además de Firebase, se emplean otras bibliotecas como **Redux Toolkit** para manejar el estado de la aplicación, **React Router** para la navegación y **Axios** para la comunicación con el backend.
 
+--
+
+### **TailwindCss**
+El frontend de la aplicación está diseñado con un enfoque moderno y responsivo utilizando React y TailwindCSS. TailwindCSS es una herramienta de CSS utilitaria que permite un desarrollo rápido y flexible, lo que hace que el diseño de la interfaz sea más sencillo y mantenible.
+
+Paleta de colores personalizada
+Para crear una identidad visual coherente y atractiva, se ha definido una paleta de colores personalizada que refleja el tema del proyecto:
+
+Color Primario: #FFCE1A (un amarillo brillante que se utiliza principalmente para botones, enlaces y elementos interactivos).
+Color Secundario: #0D0842 (un tono oscuro de azul utilizado para elementos destacados y fondos).
+Color de Fondo: #F3F3F3 (un gris claro utilizado como color de fondo principal para el sitio web, ofreciendo un contraste suave con los elementos interactivos).
 
 ### **Dependencias del Frontend**
 - **[React](https://reactjs.org/):** Biblioteca principal para construir la interfaz.
