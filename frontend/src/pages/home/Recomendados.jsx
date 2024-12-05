@@ -8,10 +8,11 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import CardLibro from "../libros/CardLibro";
-import { useFetchAllLibrosQuery } from "../../redux/features/libros/librosAPI";
+import { useFetchAllLibrosQuery } from "../../redux/features/libros/librosApi";
 
 const Recomendados = () => {
   const { data: libros = [] } = useFetchAllLibrosQuery();
+  console.log("Libros recomendados:", libros);
 
   return (
     <div className="py-16">
