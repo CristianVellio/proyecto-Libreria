@@ -10,7 +10,7 @@ Puedes visitar el proyecto en vivo [aquí](https://proyecto-libreria.vercel.app/
 
 ---
 
-## **Backend**
+<h2 align="center">  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongoose/mongoose-original.svg" width="40" height="40"/> Backend <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="40" height="40"/> </h2>
 
 El backend del proyecto está construido con **Node.js** y **Express**, proporcionando un servidor rápido y eficiente. Se conecta a una base de datos **MongoDB** para almacenar toda la información relacionada con los libros, usuarios, pedidos, y más.
 
