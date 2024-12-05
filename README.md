@@ -61,9 +61,9 @@ Durante el desarrollo del backend, se utilizó **Postman** para probar y verific
    - Se verificaron las rutas relacionadas con el carrito de compras (`POST /api/carrito`) y los pedidos (`POST /api/pedidos`), asegurando que las interacciones con el carrito y las órdenes se manejan correctamente.
 
 
----
 
-Este enfoque ayuda a detallar el proceso de pruebas, asegurando que el backend esté completamente verificado antes de integrar el frontend.
+
+<p align="center"> Este enfoque ayuda a detallar el proceso de pruebas, asegurando que el backend esté completamente verificado antes de integrar el frontend. </p>
 
 ---
 
@@ -97,7 +97,7 @@ Detaca el uso de **Vite** como herramienta de construcción. Vite es un build to
 7. **Diseño Moderno:**
    - Slider interactivo para presentar libros destacados con **swiper**.
 
---  
+---  
 
 Entre las funcionalidades destacadas del frontend, se incluye la autenticación de usuarios a través de **Firebase**.
 
