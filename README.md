@@ -67,7 +67,7 @@ Este enfoque ayuda a detallar el proceso de pruebas, asegurando que el backend e
 
 ---
 
-## **Frontend**
+<h2 align="center">  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" width="40" height="40"/> <img src="ttps://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" width="40" height="40"/> Frontend <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" width="40" height="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="40" height="40"/> </h2>
 
 El frontend está desarrollado con **React**, utilizando herramientas modernas para una interfaz dinámica y responsiva. Implementa un diseño atractivo con componentes reutilizables y ofrece una experiencia de usuario fluida; que es justo la clase de enfoque moderno y responsivo que se logra utilizando React y **TailwindCSS**. 
 Detaca el uso de **Vite** como herramienta de construcción. Vite es un build tool de nueva generación que se destaca por su velocidad y eficiencia, especialmente para aplicaciones React.
