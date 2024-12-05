@@ -1,5 +1,10 @@
 <h1 align="center"> Proyecto Librería 📚 </h1>
 
+<div align="center">
+<img src="https://github.com/user-attachments/assets/596a513b-ef5d-489f-85ce-8c2fd3ef79e0" alt="Responsive_Bookstore" width="500" height="200">
+</div>
+
+
 <h2 align="center"> Introducción </h2>
 
 El proyecto **Librería** es una plataforma web moderna para la gestión y venta de libros. Diseñada tanto para usuarios finales como administradores, esta aplicación permite explorar libros, agregarlos al carrito, realizar compras, y para administradores, gestionar la biblioteca con funciones CRUD completas.
