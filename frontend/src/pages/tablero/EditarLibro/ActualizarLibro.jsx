@@ -2,7 +2,7 @@ import Loading from "../../../components/Loading";
 import {
   useFetchLibroByIdQuery,
   useUpdateLibroMutation,
-} from "../../../redux/features/libros/librosAPI";
+} from "../../../redux/features/libros/librosApi";
 import getBaseURL from "../../../utils/baseURL";
 import axios from "axios";
 import InputField from "../anadirLibro/InputField";
