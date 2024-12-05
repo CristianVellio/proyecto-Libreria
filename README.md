@@ -1,6 +1,6 @@
-# Proyecto Librería 📚
+<h1 align="center"> Proyecto Librería 📚 </h1>
 
-## **Introducción**
+<h2 align="center"> Introducción </h2>
 
 El proyecto **Librería** es una plataforma web moderna para la gestión y venta de libros. Diseñada tanto para usuarios finales como administradores, esta aplicación permite explorar libros, agregarlos al carrito, realizar compras, y para administradores, gestionar la biblioteca con funciones CRUD completas.
 
