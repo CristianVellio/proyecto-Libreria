@@ -99,6 +99,7 @@ Detaca el uso de **Vite** como herramienta de construcción. Vite es un build to
 
 
 ---
+
 <H3 align="center"> Entre las funcionalidades destacadas del frontend, se incluye la autenticación de usuarios a través de Firebase.  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-line.svg" width="40" height="40"/> </H3>
 
 - **Autenticación con Google**: Se utiliza **Firebase Authentication** para permitir a los usuarios iniciar sesión de manera fácil y rápida a través de su cuenta de Google. Esta implementación proporciona una capa de seguridad adicional para el inicio de sesión.
@@ -109,7 +110,7 @@ Además de Firebase, se emplean otras bibliotecas como **Redux Toolkit** para ma
 
 ---
 
-### **Paleta de colores personalizada**
+<h2 align="center"> Paleta de colores personalizada 🎨 </h2>
 Para crear una identidad visual coherente y atractiva, se ha definido una paleta de colores personalizada que refleja el tema del proyecto:
 
 Color Primario: #FFCE1A (un amarillo brillante que se utiliza principalmente para botones, enlaces y elementos interactivos).
