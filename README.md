@@ -95,6 +95,16 @@ El frontend está desarrollado con **React**, utilizando herramientas modernas p
 
 7. **Diseño Moderno:**
    - Slider interactivo para presentar libros destacados con **swiper**.
+  
+
+Entre las funcionalidades destacadas del frontend, se incluye la autenticación de usuarios a través de **Firebase**.
+
+- **Autenticación con Google**: Se utiliza **Firebase Authentication** para permitir a los usuarios iniciar sesión de manera fácil y rápida a través de su cuenta de Google. Esta implementación proporciona una capa de seguridad adicional para el inicio de sesión.
+  
+- **Validaciones de usuario**: Firebase también gestiona la validación del usuario, asegurando que solo los usuarios autenticados puedan acceder a ciertas funcionalidades, como la administración del catálogo de libros o la gestión del carrito de compras.
+
+Además de Firebase, se emplean otras bibliotecas como **Redux Toolkit** para manejar el estado de la aplicación, **React Router** para la navegación y **Axios** para la comunicación con el backend.
+
 
 ### **Dependencias del Frontend**
 - **[React](https://reactjs.org/):** Biblioteca principal para construir la interfaz.
