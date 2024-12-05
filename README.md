@@ -69,7 +69,8 @@ Este enfoque ayuda a detallar el proceso de pruebas, asegurando que el backend e
 
 ## **Frontend**
 
-El frontend está desarrollado con **React**, utilizando herramientas modernas para una interfaz dinámica y responsiva. Implementa un diseño atractivo con componentes reutilizables y ofrece una experiencia de usuario fluida.
+El frontend está desarrollado con **React**, utilizando herramientas modernas para una interfaz dinámica y responsiva. Implementa un diseño atractivo con componentes reutilizables y ofrece una experiencia de usuario fluida; que es justo la clase de enfoque moderno y responsivo que se logra utilizando React y **TailwindCSS**. 
+Detaca el uso de **Vite** como herramienta de construcción. Vite es un build tool de nueva generación que se destaca por su velocidad y eficiencia, especialmente para aplicaciones React.
 
 ### **Funcionalidades**
 
@@ -108,10 +109,8 @@ Además de Firebase, se emplean otras bibliotecas como **Redux Toolkit** para ma
 
 --
 
-### **TailwindCss**
-El frontend de la aplicación está diseñado con un enfoque moderno y responsivo utilizando React y TailwindCSS. TailwindCSS es una herramienta de CSS utilitaria que permite un desarrollo rápido y flexible, lo que hace que el diseño de la interfaz sea más sencillo y mantenible.
 
-Paleta de colores personalizada
+### **Paleta de colores personalizada**
 Para crear una identidad visual coherente y atractiva, se ha definido una paleta de colores personalizada que refleja el tema del proyecto:
 
 Color Primario: #FFCE1A (un amarillo brillante que se utiliza principalmente para botones, enlaces y elementos interactivos).
