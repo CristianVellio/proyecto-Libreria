@@ -7,10 +7,10 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Navigation, Pagination } from "swiper/modules";
 
-import news1 from "../../assets/news/news-1.png";
-import news2 from "../../assets/news/news-2.png";
-import news3 from "../../assets/news/news-3.png";
-import news4 from "../../assets/news/news-4.png";
+import news1 from "../../../public/assets/news/news-1.png";
+import news2 from "../../../public/assets/news/news-2.png";
+import news3 from "../../../public/assets/news/news-3.png";
+import news4 from "../../../public/assets/news/news-4.png";
 
 const noticias = [
   {

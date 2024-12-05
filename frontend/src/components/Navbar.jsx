@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import { FaSearch, FaRegUser, FaRegHeart, FaBookReader } from "react-icons/fa";
 import { FiShoppingCart } from "react-icons/fi";
-import avatarImg from "../assets/avatar.png";
+import avatarImg from "../../public/assets/avatar.png";
 import { useState } from "react";
 import { useSelector } from "react-redux";
 import { useAuth } from "../context/AuthContext";
