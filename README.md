@@ -95,7 +95,8 @@ El frontend está desarrollado con **React**, utilizando herramientas modernas p
 
 7. **Diseño Moderno:**
    - Slider interactivo para presentar libros destacados con **swiper**.
-  
+
+---  
 
 Entre las funcionalidades destacadas del frontend, se incluye la autenticación de usuarios a través de **Firebase**.
 
