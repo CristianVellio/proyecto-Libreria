@@ -60,21 +60,6 @@ Durante el desarrollo del backend, se utilizó **Postman** para probar y verific
 3. **Rutas de Carrito y Pedidos:**
    - Se verificaron las rutas relacionadas con el carrito de compras (`POST /api/carrito`) y los pedidos (`POST /api/pedidos`), asegurando que las interacciones con el carrito y las órdenes se manejan correctamente.
 
-### **Cómo Usar Postman**
-
-Si deseas probar la API utilizando Postman, sigue estos pasos:
-
-1. **Importar Colección de Postman:**
-   - Puedes importar una colección preconfigurada de las rutas de la API desde el siguiente enlace [aquí](https://www.postman.com/), si está disponible, o puedes crear una propia basada en las rutas proporcionadas en la documentación.
-
-2. **Configurar el Entorno:**
-   - Asegúrate de configurar las variables de entorno necesarias, como la URL base del backend y las credenciales de autenticación.
-
-3. **Realizar Solicitudes:**
-   - En Postman, realiza solicitudes **GET**, **POST**, **PUT**, o **DELETE** a las rutas de la API, y verifica que las respuestas sean las esperadas.
-
-4. **Verificar Respuestas:**
-   - Revisa los códigos de estado HTTP (por ejemplo, 200 OK, 400 Bad Request, etc.) y los cuerpos de las respuestas para asegurar que la API esté funcionando correctamente.
 
 ---
 
