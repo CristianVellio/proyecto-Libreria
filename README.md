@@ -130,7 +130,7 @@ Color de Fondo: #F3F3F3 (un gris claro utilizado como color de fondo principal p
 
 ---
 
-## **Arquitectura del Proyecto**
+<h2 align="center"> Arquitectura del Proyecto 📁 </h2>
 
 1. **Frontend:**
    - Carpeta: `/src`
@@ -154,7 +154,7 @@ Color de Fondo: #F3F3F3 (un gris claro utilizado como color de fondo principal p
 
 ---
 
-## **Cómo Ejecutar el Proyecto Localmente**
+<h2 align="center"> Como ejecutar el proyecto 🖥️ </h2>
 
 ### **Prerrequisitos**
 - Node.js instalado.
