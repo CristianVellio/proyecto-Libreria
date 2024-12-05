@@ -97,9 +97,9 @@ Detaca el uso de **Vite** como herramienta de construcción. Vite es un build to
 7. **Diseño Moderno:**
    - Slider interactivo para presentar libros destacados con **swiper**.
 
----  
 
-Entre las funcionalidades destacadas del frontend, se incluye la autenticación de usuarios a través de **Firebase**.
+---
+<H3 align="center"> Entre las funcionalidades destacadas del frontend, se incluye la autenticación de usuarios a través de Firebase.  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-line.svg" width="40" height="40"/> </H3>
 
 - **Autenticación con Google**: Se utiliza **Firebase Authentication** para permitir a los usuarios iniciar sesión de manera fácil y rápida a través de su cuenta de Google. Esta implementación proporciona una capa de seguridad adicional para el inicio de sesión.
   
@@ -107,8 +107,7 @@ Entre las funcionalidades destacadas del frontend, se incluye la autenticación 
 
 Además de Firebase, se emplean otras bibliotecas como **Redux Toolkit** para manejar el estado de la aplicación, **React Router** para la navegación y **Axios** para la comunicación con el backend.
 
---
-
+---
 
 ### **Paleta de colores personalizada**
 Para crear una identidad visual coherente y atractiva, se ha definido una paleta de colores personalizada que refleja el tema del proyecto:
