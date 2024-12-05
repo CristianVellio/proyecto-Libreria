@@ -41,8 +41,7 @@ El backend del proyecto está construido con **Node.js** y **Express**, proporci
 - **[jsonwebtoken](https://github.com/auth0/node-jsonwebtoken):** Para autenticación basada en tokens.
 - **[bcrypt](https://github.com/kelektiv/node.bcrypt.js):** Para encriptar contraseñas.
 - **[cors](https://github.com/expressjs/cors):** Para manejo de políticas de acceso cruzado.
-
-Puedes incluir el uso de **Postman** en la sección de **Pruebas** o **Documentación de la API** para explicar cómo se realizaron las pruebas de las rutas del backend y cómo interactuar con la API. Aquí te dejo una sugerencia de cómo integrarlo:
+  
 
 ---
 
