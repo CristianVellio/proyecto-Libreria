@@ -42,6 +42,45 @@ El backend del proyecto está construido con **Node.js** y **Express**, proporci
 - **[bcrypt](https://github.com/kelektiv/node.bcrypt.js):** Para encriptar contraseñas.
 - **[cors](https://github.com/expressjs/cors):** Para manejo de políticas de acceso cruzado.
 
+Puedes incluir el uso de **Postman** en la sección de **Pruebas** o **Documentación de la API** para explicar cómo se realizaron las pruebas de las rutas del backend y cómo interactuar con la API. Aquí te dejo una sugerencia de cómo integrarlo:
+
+---
+
+## **Uso de Postman**
+
+Durante el desarrollo del backend, se utilizó **Postman** para probar y verificar el correcto funcionamiento de las rutas de la API antes de integrarlas con el frontend. Postman es una herramienta que facilita el envío de solicitudes HTTP y la visualización de respuestas, lo que permite asegurarse de que la API está funcionando como se espera.
+
+### **Pruebas en Postman**
+
+1. **Rutas de Autenticación:**
+   - Se probaron las rutas de inicio de sesión (`POST /login`) y registro (`POST /register`) enviando solicitudes con credenciales de usuario válidas e inválidas.
+
+2. **Rutas CRUD de Libros:**
+   - Se probaron las rutas para crear, leer, actualizar y eliminar libros (`GET /api/libros`, `POST /api/libros`, `PUT /api/libros/:id`, `DELETE /api/libros/:id`) con datos válidos e inválidos.
+
+3. **Rutas de Carrito y Pedidos:**
+   - Se verificaron las rutas relacionadas con el carrito de compras (`POST /api/carrito`) y los pedidos (`POST /api/pedidos`), asegurando que las interacciones con el carrito y las órdenes se manejan correctamente.
+
+### **Cómo Usar Postman**
+
+Si deseas probar la API utilizando Postman, sigue estos pasos:
+
+1. **Importar Colección de Postman:**
+   - Puedes importar una colección preconfigurada de las rutas de la API desde el siguiente enlace [aquí](https://www.postman.com/), si está disponible, o puedes crear una propia basada en las rutas proporcionadas en la documentación.
+
+2. **Configurar el Entorno:**
+   - Asegúrate de configurar las variables de entorno necesarias, como la URL base del backend y las credenciales de autenticación.
+
+3. **Realizar Solicitudes:**
+   - En Postman, realiza solicitudes **GET**, **POST**, **PUT**, o **DELETE** a las rutas de la API, y verifica que las respuestas sean las esperadas.
+
+4. **Verificar Respuestas:**
+   - Revisa los códigos de estado HTTP (por ejemplo, 200 OK, 400 Bad Request, etc.) y los cuerpos de las respuestas para asegurar que la API esté funcionando correctamente.
+
+---
+
+Este enfoque ayuda a detallar el proceso de pruebas, asegurando que el backend esté completamente verificado antes de integrar el frontend.
+
 ---
 
 ## **Frontend**
