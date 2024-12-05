@@ -133,6 +133,10 @@ Color Primario: #FFCE1A (un amarillo brillante que se utiliza principalmente par
 Color Secundario: #0D0842 (un tono oscuro de azul utilizado para elementos destacados y fondos).
 Color de Fondo: #F3F3F3 (un gris claro utilizado como color de fondo principal para el sitio web, ofreciendo un contraste suave con los elementos interactivos).
 
+<div align="center">
+<img src="https://github.com/user-attachments/assets/8f4a849f-678e-4cb4-a35c-1c5825b72da1" alt="PaletaBookstore" width="350" height="180">
+</div>
+
 
 ---
 
