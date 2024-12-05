@@ -45,7 +45,7 @@ El backend del proyecto está construido con **Node.js** y **Express**, proporci
 
 ---
 
-## **Uso de Postman**
+<h2 align="center"> Uso de Postman <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" width="40" height="40"/> </h2>
 
 Durante el desarrollo del backend, se utilizó **Postman** para probar y verificar el correcto funcionamiento de las rutas de la API antes de integrarlas con el frontend. Postman es una herramienta que facilita el envío de solicitudes HTTP y la visualización de respuestas, lo que permite asegurarse de que la API está funcionando como se espera.
 
