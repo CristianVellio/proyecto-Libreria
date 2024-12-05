@@ -2,9 +2,12 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const cors = require("cors");
+const path = require("path");
 
 const port = process.env.PORT || 5000;
 require("dotenv").config();
+
+app.use("/assets", express.static(path.join(__dirname, "public/assets")));
 
 //middleware
 app.use(express.json());
