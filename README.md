@@ -211,5 +211,3 @@ cd proyecto-Libreria
 
 ---
 
-
-Este README proporciona una visión completa del proyecto Librería y guía para contribuir o ejecutarlo localmente. ¡Disfrútalo! 🚀
