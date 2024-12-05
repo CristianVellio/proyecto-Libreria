@@ -108,15 +108,6 @@ Detaca el uso de **Vite** como herramienta de construcción. Vite es un build to
 
 Además de Firebase, se emplean otras bibliotecas como **Redux Toolkit** para manejar el estado de la aplicación, **React Router** para la navegación y **Axios** para la comunicación con el backend.
 
----
-
-<h2 align="center"> Paleta de colores personalizada 🎨 </h2>
-Para crear una identidad visual coherente y atractiva, se ha definido una paleta de colores personalizada que refleja el tema del proyecto:
-
-Color Primario: #FFCE1A (un amarillo brillante que se utiliza principalmente para botones, enlaces y elementos interactivos).
-Color Secundario: #0D0842 (un tono oscuro de azul utilizado para elementos destacados y fondos).
-Color de Fondo: #F3F3F3 (un gris claro utilizado como color de fondo principal para el sitio web, ofreciendo un contraste suave con los elementos interactivos).
-
 ### **Dependencias del Frontend**
 - **[React](https://reactjs.org/):** Biblioteca principal para construir la interfaz.
 - **[React Router DOM](https://reactrouter.com/):** Para manejo de rutas.
@@ -127,6 +118,16 @@ Color de Fondo: #F3F3F3 (un gris claro utilizado como color de fondo principal p
 - **[SweetAlert2](https://sweetalert2.github.io/):** Para notificaciones elegantes.
 - **[Swiper](https://swiperjs.com/):** Para sliders interactivos.
 - **[Chart.js](https://www.chartjs.org/):** Para gráficos dinámicos.
+
+---
+
+<h2 align="center"> Paleta de colores personalizada 🎨 </h2>
+Para crear una identidad visual coherente y atractiva, se ha definido una paleta de colores personalizada que refleja el tema del proyecto:
+
+Color Primario: #FFCE1A (un amarillo brillante que se utiliza principalmente para botones, enlaces y elementos interactivos).
+Color Secundario: #0D0842 (un tono oscuro de azul utilizado para elementos destacados y fondos).
+Color de Fondo: #F3F3F3 (un gris claro utilizado como color de fondo principal para el sitio web, ofreciendo un contraste suave con los elementos interactivos).
+
 
 ---
 
