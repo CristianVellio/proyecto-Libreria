@@ -2,6 +2,7 @@
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/596a513b-ef5d-489f-85ce-8c2fd3ef79e0" alt="Responsive_Bookstore" width="500" height="200">
+   <img src="https://github.com/user-attachments/assets/f1ed191a-44bb-4d15-a647-25ff2a0a3237" alt="tablero_admin" width="500" height="200">
 </div>
 
 
